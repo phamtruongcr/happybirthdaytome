@@ -295,8 +295,8 @@ function reveal() {
 
   var ifrm = document.createElement("iframe");
   ifrm.setAttribute("src", "mybirthday.mp4");
-  ifrm.style.width = `${w}px`;
-  ifrm.style.height = `${h}px`;
+  // ifrm.style.width = `${w}px`;
+  // ifrm.style.height = `${h}px`;
   ifrm.style.border = 'none';
   document.querySelector('#video').appendChild(ifrm);
 }
